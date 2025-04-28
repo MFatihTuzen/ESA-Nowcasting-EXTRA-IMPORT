@@ -1,6 +1,6 @@
 # EXTRA-EU IMPORTS
 
-**Nowcasting EXTRA-EU IMPORTS using Trade-Weighted Indicators and TRAMO Models**
+**Nowcasting EXTRA-EU IMPORTS using Trade-Weighted Indicators with TRAMO Models**
 
 ------------------------------------------------------------------------
 
@@ -63,7 +63,14 @@ Feel free to open an issue or submit a pull request.
 
 ------------------------------------------------------------------------
 
-> Made with ❤️ by **TURKSTAT-DATG**.
+> Made with ❤️ by **TURKSTAT-DATG**
+
+## 👥 Team Members
+
+- **Özlem YİĞİT**, TURKSTAT Expert, PhD in Econometrics [LinkedIn](https://www.linkedin.com/in/dr-%C3%B6zlem-yi%C4%9Fit-431a3a78)
+- **M. Fatih TÜZEN**, TURKSTAT Expert, PhD in Statistics [LinkedIn](https://www.linkedin.com/in/dr-m-fatih-t-2b2a4328/)
+- **Osman SERT**, TURKSTAT Expert, PhD in Econometrics [LinkedIn](https://www.linkedin.com/in/dr-osman-sert-9a53b428/)
+- **F. Aydan KOCACAN NURAY**, TURKSTAT Expert, MA in Econometrics [LinkedIn](https://www.linkedin.com/in/aydan-kocacan-nuray-a40b20155/)
 
 ------------------------------------------------------------------------
 
@@ -95,3 +102,5 @@ EXTRA-IMPORT/
 
 -   2025 forecasts use trade weights based on the latest available data.
 -   Future forecasts will require updating the trade weights accordingly.
+-   For a detailed description of the project's methodology, architecture, and innovative aspects, please refer to the document:  
+**`reusability_innovativity_approach_description_EXTRA_IMPORT_TURKSTAT-DATG.pdf`** available in the repository.
