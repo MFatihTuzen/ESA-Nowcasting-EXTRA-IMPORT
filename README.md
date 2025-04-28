@@ -103,4 +103,4 @@ EXTRA-IMPORT/
 -   2025 forecasts use trade weights based on the latest available data.
 -   Future forecasts will require updating the trade weights accordingly.
 -   For a detailed description of the project's methodology, architecture, and innovative aspects, please refer to the document:  
-**`reusability_innovativity_approach_description_EXTRA_IMPORT_TURKSTAT-DATG.pdf`** available in the repository.
+**`reusability_innovativity_approach_description_EXTRA-EU IMPORTS_TURKSTAT-DATG.pdf`** available in the repository.
