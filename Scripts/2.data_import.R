@@ -86,7 +86,7 @@ exc_rate_d <- get_eurostat_json("ert_bil_eur_d", filters = list(time = exc_rate_
   right_join(currency_codes, by = "currency") %>%
   select(geo, TIME_PERIOD = time, values) %>%
   mutate(indicator = "EXC_RATE") |> 
-  filter(is.na(values)==FALSE)  # 1 Ocak değerleri NA geldi. Bu yüzden ekledim.
+  filter(is.na(values)==FALSE)
 
 exc_rate_conversion_prev_periods <- get_eurostat("ert_bil_conv_m") |> 
   filter(year(TIME_PERIOD) >= 2014, statinfo == "AVG") |> 
