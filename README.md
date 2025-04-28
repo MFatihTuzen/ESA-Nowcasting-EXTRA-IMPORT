@@ -63,9 +63,9 @@ Feel free to open an issue or submit a pull request.
 
 ------------------------------------------------------------------------
 
-> Made with ❤️ by **TURKSTAT-DATG**
-
 ## 👥 Team Members
+
+> Made with ❤️ by **TURKSTAT-DATG**
 
 - **Özlem YİĞİT**, TURKSTAT Expert, PhD in Econometrics [LinkedIn](https://www.linkedin.com/in/dr-%C3%B6zlem-yi%C4%9Fit-431a3a78)
 - **M. Fatih TÜZEN**, TURKSTAT Expert, PhD in Statistics [LinkedIn](https://www.linkedin.com/in/dr-m-fatih-t-2b2a4328/)
