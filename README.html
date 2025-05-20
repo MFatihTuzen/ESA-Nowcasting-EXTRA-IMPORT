@@ -364,24 +364,26 @@ reproducible nowcasting pipeline built in R.<br />
 It leverages trade-weighted macroeconomic indicators and applies
 advanced time series modeling (TRAMO framework) to produce timely and
 accurate forecasts for international trade flows.</p>
-<p>The system is designed to be: 🔄 <strong>Fully Reproducible</strong>
-(with <code>renv</code> environment management) 🛠 <strong>Modular and
-Configurable</strong> (country-specific model settings via control
-tables) ⚡ <strong>Efficient and Scalable</strong> (fast execution even
-on large datasets) 🌍 <strong>Open and Transparent</strong> (based
-entirely on public data from Eurostat and OECD)</p>
+<p>The system is designed to be: - 🔄 <strong>Fully
+Reproducible</strong> (with <code>renv</code> environment management) -
+🛠 <strong>Modular and Configurable</strong> (country-specific model
+settings via control tables) - ⚡ <strong>Efficient and
+Scalable</strong> (fast execution even on large datasets) - 🌍
+<strong>Open and Transparent</strong> (based entirely on public data
+from Eurostat and OECD)</p>
 <hr />
 </div>
 <div id="architecture-overview" class="section level2">
 <h2>🧩 Architecture Overview</h2>
-<p>The pipeline is divided into modular components: <strong>Environment
-Setup:</strong> Clean and reproducible R session with all dependencies.
-<strong>Data Import:</strong> Retrieve or load macroeconomic indicators
-(IPI, HICP, EXC_RATE). <strong>Data Preparation:</strong> Rebase
-indices, impute missing values, and compute trade-weighted aggregates.
-<strong>Modeling:</strong> Fit univariate and multivariate TRAMO models
-using RJDemetra. <strong>Forecasting:</strong> Generate and export
-nowcasts in structured formats.</p>
+<p>The pipeline is divided into modular components: -
+<strong>Environment Setup:</strong> Clean and reproducible R session
+with all dependencies. - <strong>Data Import:</strong> Retrieve or load
+macroeconomic indicators (IPI, HICP, EXC_RATE). - <strong>Data
+Preparation:</strong> Rebase indices, impute missing values, and compute
+trade-weighted aggregates. - <strong>Modeling:</strong> Fit univariate
+and multivariate TRAMO models using RJDemetra. -
+<strong>Forecasting:</strong> Generate and export nowcasts in structured
+formats.</p>
 <p>For a full architectural diagram, please refer to the documentation
 or <code>Architecture_EXTRA_IMPORT.jpg</code>.</p>
 <hr />
@@ -389,13 +391,14 @@ or <code>Architecture_EXTRA_IMPORT.jpg</code>.</p>
 <div id="libraries-used" class="section level2">
 <h2>📦 Libraries Used</h2>
 <p>All libraries used in this project are open-source and actively
-maintained: <a href="https://cran.r-project.org/package=tidyverse"><code>tidyverse</code></a>
-<a href="https://cran.r-project.org/package=RJDemetra"><code>RJDemetra</code></a>
-<a href="https://cran.r-project.org/package=lubridate"><code>lubridate</code></a>
-<a href="https://cran.r-project.org/package=openxlsx"><code>openxlsx</code></a>
-<a href="https://cran.r-project.org/package=jsonlite"><code>jsonlite</code></a>
-<a href="https://cran.r-project.org/package=zoo"><code>zoo</code></a> <a href="https://cran.r-project.org/package=eurostat"><code>eurostat</code></a>
-<a href="https://cran.r-project.org/package=rsdmx"><code>rsdmx</code></a></p>
+maintained: - <a href="https://cran.r-project.org/package=tidyverse"><code>tidyverse</code></a>
+- <a href="https://cran.r-project.org/package=RJDemetra"><code>RJDemetra</code></a>
+- <a href="https://cran.r-project.org/package=lubridate"><code>lubridate</code></a>
+- <a href="https://cran.r-project.org/package=openxlsx"><code>openxlsx</code></a>
+- <a href="https://cran.r-project.org/package=jsonlite"><code>jsonlite</code></a>
+- <a href="https://cran.r-project.org/package=zoo"><code>zoo</code></a>
+- <a href="https://cran.r-project.org/package=eurostat"><code>eurostat</code></a>
+- <a href="https://cran.r-project.org/package=rsdmx"><code>rsdmx</code></a></p>
 <p>Environment management is handled via <a href="https://cran.r-project.org/package=renv"><code>renv</code></a>.</p>
 <hr />
 </div>

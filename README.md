@@ -20,11 +20,11 @@ The system is designed to be:
 ## 🧩 Architecture Overview
 
 The pipeline is divided into modular components: 
-**Environment Setup:** Clean and reproducible R session with all dependencies. 
-**Data Import:** Retrieve or load macroeconomic indicators (IPI, HICP, EXC_RATE). 
-**Data Preparation:** Rebase indices, impute missing values, and compute trade-weighted aggregates. 
-**Modeling:** Fit univariate and multivariate TRAMO models using RJDemetra. 
-**Forecasting:** Generate and export nowcasts in structured formats.
+- **Environment Setup:** Clean and reproducible R session with all dependencies. 
+- **Data Import:** Retrieve or load macroeconomic indicators (IPI, HICP, EXC_RATE). 
+- **Data Preparation:** Rebase indices, impute missing values, and compute trade-weighted aggregates. 
+- **Modeling:** Fit univariate and multivariate TRAMO models using RJDemetra. 
+- **Forecasting:** Generate and export nowcasts in structured formats.
 
 For a full architectural diagram, please refer to the documentation or `Architecture_EXTRA_IMPORT.jpg`.
 
@@ -33,14 +33,14 @@ For a full architectural diagram, please refer to the documentation or `Architec
 ## 📦 Libraries Used
 
 All libraries used in this project are open-source and actively maintained: 
-[`tidyverse`](https://cran.r-project.org/package=tidyverse) 
-[`RJDemetra`](https://cran.r-project.org/package=RJDemetra) 
-[`lubridate`](https://cran.r-project.org/package=lubridate) 
-[`openxlsx`](https://cran.r-project.org/package=openxlsx) 
-[`jsonlite`](https://cran.r-project.org/package=jsonlite) 
-[`zoo`](https://cran.r-project.org/package=zoo) 
-[`eurostat`](https://cran.r-project.org/package=eurostat) 
-[`rsdmx`](https://cran.r-project.org/package=rsdmx)
+- [`tidyverse`](https://cran.r-project.org/package=tidyverse) 
+- [`RJDemetra`](https://cran.r-project.org/package=RJDemetra) 
+- [`lubridate`](https://cran.r-project.org/package=lubridate) 
+- [`openxlsx`](https://cran.r-project.org/package=openxlsx) 
+- [`jsonlite`](https://cran.r-project.org/package=jsonlite) 
+- [`zoo`](https://cran.r-project.org/package=zoo) 
+- [`eurostat`](https://cran.r-project.org/package=eurostat) 
+- [`rsdmx`](https://cran.r-project.org/package=rsdmx)
 
 Environment management is handled via [`renv`](https://cran.r-project.org/package=renv).
 
