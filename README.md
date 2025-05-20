@@ -10,10 +10,10 @@
 It leverages trade-weighted macroeconomic indicators and applies advanced time series modeling (TRAMO framework) to produce timely and accurate forecasts for international trade flows.
 
 The system is designed to be: 
-🔄 **Fully Reproducible** (with `renv` environment management) 
-🛠 **Modular and Configurable** (country-specific model settings via control tables) 
-⚡ **Efficient and Scalable** (fast execution even on large datasets) 
-🌍 **Open and Transparent** (based entirely on public data from Eurostat and OECD)
+- 🔄 **Fully Reproducible** (with `renv` environment management) 
+- 🛠 **Modular and Configurable** (country-specific model settings via control tables) 
+- ⚡ **Efficient and Scalable** (fast execution even on large datasets) 
+- 🌍 **Open and Transparent** (based entirely on public data from Eurostat and OECD)
 
 ------------------------------------------------------------------------
 
