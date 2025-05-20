@@ -9,13 +9,22 @@
 **EXTRA-EU IMPORTS** is a modular, scalable, and reproducible nowcasting pipeline built in R.\
 It leverages trade-weighted macroeconomic indicators and applies advanced time series modeling (TRAMO framework) to produce timely and accurate forecasts for international trade flows.
 
-The system is designed to be: - 🔄 **Fully Reproducible** (with `renv` environment management) - 🛠 **Modular and Configurable** (country-specific model settings via control tables) - ⚡ **Efficient and Scalable** (fast execution even on large datasets) - 🌍 **Open and Transparent** (based entirely on public data from Eurostat and OECD)
+The system is designed to be: 
+🔄 **Fully Reproducible** (with `renv` environment management) 
+🛠 **Modular and Configurable** (country-specific model settings via control tables) 
+⚡ **Efficient and Scalable** (fast execution even on large datasets) 
+🌍 **Open and Transparent** (based entirely on public data from Eurostat and OECD)
 
 ------------------------------------------------------------------------
 
 ## 🧩 Architecture Overview
 
-The pipeline is divided into modular components: - **Environment Setup:** Clean and reproducible R session with all dependencies. - **Data Import:** Retrieve or load macroeconomic indicators (IPI, HICP, EXC_RATE). - **Data Preparation:** Rebase indices, impute missing values, and compute trade-weighted aggregates. - **Modeling:** Fit univariate and multivariate TRAMO models using RJDemetra. - **Forecasting:** Generate and export nowcasts in structured formats.
+The pipeline is divided into modular components: 
+**Environment Setup:** Clean and reproducible R session with all dependencies. 
+**Data Import:** Retrieve or load macroeconomic indicators (IPI, HICP, EXC_RATE). 
+**Data Preparation:** Rebase indices, impute missing values, and compute trade-weighted aggregates. 
+**Modeling:** Fit univariate and multivariate TRAMO models using RJDemetra. 
+**Forecasting:** Generate and export nowcasts in structured formats.
 
 For a full architectural diagram, please refer to the documentation or `Architecture_EXTRA_IMPORT.jpg`.
 
@@ -23,7 +32,15 @@ For a full architectural diagram, please refer to the documentation or `Architec
 
 ## 📦 Libraries Used
 
-All libraries used in this project are open-source and actively maintained: - [`tidyverse`](https://cran.r-project.org/package=tidyverse) - [`RJDemetra`](https://cran.r-project.org/package=RJDemetra) - [`lubridate`](https://cran.r-project.org/package=lubridate) - [`openxlsx`](https://cran.r-project.org/package=openxlsx) - [`jsonlite`](https://cran.r-project.org/package=jsonlite) - [`zoo`](https://cran.r-project.org/package=zoo) - [`eurostat`](https://cran.r-project.org/package=eurostat) - [`rsdmx`](https://cran.r-project.org/package=rsdmx)
+All libraries used in this project are open-source and actively maintained: 
+[`tidyverse`](https://cran.r-project.org/package=tidyverse) 
+[`RJDemetra`](https://cran.r-project.org/package=RJDemetra) 
+[`lubridate`](https://cran.r-project.org/package=lubridate) 
+[`openxlsx`](https://cran.r-project.org/package=openxlsx) 
+[`jsonlite`](https://cran.r-project.org/package=jsonlite) 
+[`zoo`](https://cran.r-project.org/package=zoo) 
+[`eurostat`](https://cran.r-project.org/package=eurostat) 
+[`rsdmx`](https://cran.r-project.org/package=rsdmx)
 
 Environment management is handled via [`renv`](https://cran.r-project.org/package=renv).
 
